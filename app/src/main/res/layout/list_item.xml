@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lin_layout_hor"
+    android:minHeight="40dp"
+    android:orientation="horizontal"
+    android:weightSum="2.3">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.3"
+        android:gravity="start"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:gravity="center" />
+
+</LinearLayout>

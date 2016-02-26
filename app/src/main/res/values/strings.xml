@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Accelerometer</string>
+    <string name="action_start_service">Start</string>
+    <string name="action_stop_service">Stop</string>
+    <string name="action_clear">Clear FireBase</string>
+    <string name="data">List of Data</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="action_coord">X Coordinate Graph</string>
+</resources>
